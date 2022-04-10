@@ -17,6 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
 
         MainLibrary.hello()
+        print(MainLibrary.bundle)
+        print(MainLibrary.internalBundle)
         
         return true
     }

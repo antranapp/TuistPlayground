@@ -12,7 +12,7 @@ extension Project {
             name: name,
             platform: platform,
             dependencies: [
-                .package(product: "MainLibrary")
+                .external(name: "MainLibrary")
             ]
         )
         return Project(
